@@ -124,9 +124,7 @@ const app = {
   async renderSongList(file) {
     const html = [];
     let totalSong = 0;
-    this.songData = (await this.loadSongList(file)).sort(
-      this.dynamicSort("name", this.isSorting)
-    );
+    this.songData = await this.loadSongList(file);
     this.songData.map((song, index) => {
       totalSong++;
       html.push(`
