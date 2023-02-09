@@ -1,0 +1,65 @@
+[
+  {
+    name: "yêu đơn phương là gì?",
+    artist: "h0n",
+    path: "./mp3/Yêu Đơn Phương Là Gì Lofi.mp3",
+    img: "./img/yeu-don-phuong-la-gi.jpg",
+  },
+  {
+    name: "ghé qua",
+    artist: "bạn có tài mà",
+    path: "./mp3/ghequa.mp3",
+    img: "./img/ghe-qua.png",
+    lyric: "./lyric/ghe-qua.lrc",
+  },
+  {
+    name: "anh thương em nhất mà",
+    artist: "lã x log x tib",
+    path: "./mp3/anhthuongemnhatma.mp3",
+    img: "./img/anh-thuong-em-nhat-ma.jpg",
+    lyric: "./lyric/anh-thuong-em-nhat-ma.lrc",
+  },
+  {
+    name: "dừng thương",
+    artist: "datKaa",
+    path: "./mp3/dungthuong.mp3",
+    img: "./img/dung-thuong.png",
+    lyric: "./lyric/dung-thuong.lrc",
+  },
+  {
+    name: "mãi mãi không phải anh",
+    artist: "thanh bình",
+    path: "./mp3/maimaikhongphaianh.mp3",
+    img: "./img/mai-mai-khong-phai-anh.png",
+  },
+  {
+    name: "chạy về khóc với anh",
+    artist: "ERIK",
+    path: "./mp3/chayvekhocvoianh.mp3",
+    img: "./img/chay-ve-khoc-voi-anh.png",
+  },
+  {
+    name: "em ổn không",
+    artist: "trịnh thiên ân x viruss",
+    path: "./mp3/emonkhong.mp3",
+    img: "./img/em-on-khong.jpg",
+  },
+  {
+    name: "chỉ muốn bên em thật gần",
+    artist: "YLing",
+    path: "./mp3/chimuonbenemthatgan.mp3",
+    img: "./img/chi-muon-ben-em-that-gan.jpg",
+  },
+  {
+    name: "sao em vô tình",
+    artist: "jack",
+    path: "./mp3/saoemvotinh.mp3",
+    img: "./img/sao-em-vo-tinh.png",
+  },
+  {
+    name: "nụ cười em là nắng",
+    artist: "green",
+    path: "./mp3/nucuoiemlanang.mp3",
+    img: "./img/nu-cuoi-em-la-nang.png",
+  },
+];

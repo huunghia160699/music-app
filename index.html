@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div id="background"></div>
+    <main>
+      <div id="bg" class="hide">
+        <div class="song-playing">
+          <div id="modal" class=""></div>
+          <div class="song-playing-header">
+            <p class="now-playing">Now playing</p>
+          </div>
+
+          <!--  -->
+          <div class="song-playing-thumbnail">
+            <div class="image"></div>
+          </div>
+          <!--  -->
+          <div class="song-playing-info">
+            <p class="song-playing-name"></p>
+            <p class="song-playing-artist"></p>
+          </div>
+          <!--  -->
+          <ul class="song-playing-lyrics"></ul>
+          <!--  -->
+          <div id="timer-box">
+            <div class="timer-header">
+              <img src="./img/alarm-14.svg" alt="" /> Hẹn giờ: <span>Tắt</span>
+            </div>
+            <div id="time-set" data-timer="0">
+              <p><span>0</span> phút</p>
+              <div id="time-bar" class="timer-bar">
+                <div id="time-progressed" class="timer-progressed"></div>
+              </div>
+            </div>
+            <div id="track-set" data-timer="0">
+              <p><span>0</span> bài</p>
+              <div id="track-bar" class="timer-bar">
+                <div id="track-progressed" class="timer-progressed"></div>
+              </div>
+            </div>
+            <div class="timer-footer">
+              <span id="timer-on">Bật</span>
+              <span id="timer-cancel">Hủy</span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="song-playing-duration">
+            <div id="progress_bar">
+              <div id="progressed"></div>
+            </div>
+            <p id="current-duration">00:00</p>
+            <p id="total-duration">00:00</p>
+          </div>
+
+          <!--  -->
+          <div class="song-playing-button">
+            <div id="pop-up"></div>
+
+            <div class="main-button">
+              <span id="random-btn">
+                <img src="" alt="" />
+              </span>
+              <span id="previous-btn">
+                <img src="" alt="" />
+              </span>
+              <span id="play-btn">
+                <img src="" alt="" />
+                <img src="./img/pause.svg" alt="" />
+              </span>
+              <span id="next-btn">
+                <img src="" alt="" />
+              </span>
+              <span id="playback-btn" class="">
+                <img src="" alt="" />
+              </span>
+            </div>
+
+            <div class="extra-button">
+              <div id="lyric-btn">
+                <img src="" alt="" />
+                <span>Lời bài hát</span>
+              </div>
+              <div id="timer-btn">
+                <img src="" alt="" />
+                <span>Hẹn giờ</span>
+              </div>
+              <div id="theme-btn">
+                <img src="" alt="" />
+                <span>Đổi màu</span>
+              </div>
+              <div id="playlist-btn">
+                <img src="" alt="" />
+                <span>Danh sách</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="playlist">
+        <div class="playlist-header">
+          <form action="">
+            <img src="./img/search-short.svg" alt="" />
+            <input
+              type="text"
+              name=""
+              id="search-box"
+              title="search"
+              placeholder="Tìm kiếm bài hát..."
+              spellcheck="false"
+              autocomplete="off"
+            />
+            <img id="clear-search" src="./img/close-x.svg" alt="" />
+          </form>
+          <div class="result-box">
+            <p class="total-song">Tất cả bài hát <span></span></p>
+            <div id="sorting-box" class="active">
+              <p>A - Z</p>
+              <img src="./img/arrow-down-46.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <ul class="song-list"></ul>
+      </div>
+    </main>
+
+    <audio id="audio" src="" controls></audio>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
