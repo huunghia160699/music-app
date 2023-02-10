@@ -339,12 +339,6 @@ const app = {
   },
   handleEvents() {
     const that = this;
-    dom.sortingBox.onclick = () => {
-      dom.sortingBox.classList.toggle("active", this.isSorting);
-      that.isSorting = !that.isSorting;
-      // console.log(that.songData.sort(that.dynamicSort("name", that.isSorting)));
-      // console.log();
-    };
     dom.searchBox.oninput = (e) => {
       const searchValue = dom.searchBox.value.toLowerCase();
       const songItems = songList.querySelectorAll("li");
