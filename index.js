@@ -160,7 +160,7 @@ const app = {
       totalDuration.innerText = toMMSS(audio.duration);
       this.showLyric(songs[this.currentIndex].lyric);
       this.activeCurrentSong();
-    }, 300);
+    }, 1000);
   },
   setStyle([...element], object) {
     for (let i = 0; i < [...element].length; i++) {
